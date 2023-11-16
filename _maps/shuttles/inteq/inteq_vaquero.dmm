@@ -904,6 +904,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/item/clothing/shoes/combat,
 /turf/open/floor/plasteel/tech,
 /area/ship/maintenance/starboard)
 "mu" = (
@@ -1880,6 +1881,10 @@
 /obj/item/clothing/gloves/color/yellow,
 /obj/structure/extinguisher_cabinet/directional/south,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/clothing/glasses/welding,
 /turf/open/floor/plasteel/tech,
 /area/ship/maintenance/starboard)
 "CD" = (
