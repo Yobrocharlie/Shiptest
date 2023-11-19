@@ -424,10 +424,10 @@ ROUNDSTART_RACES human
 
 ## Races that are strictly worse than humans that could probably be turned on without balance concerns
 ROUNDSTART_RACES lizard
-#ROUNDSTART_RACES fly
+ROUNDSTART_RACES fly
 ROUNDSTART_RACES moth
 ROUNDSTART_RACES plasmaman
-#ROUNDSTART_RACES shadow
+ROUNDSTART_RACES shadow
 ROUNDSTART_RACES ipc
 ROUNDSTART_RACES felinid
 #ROUNDSTART_RACES squid
@@ -449,12 +449,12 @@ ROUNDSTART_RACES jelly
 #ROUNDSTART_RACES synth
 
 ## Races that are straight upgrades. If these are on expect powergamers to always pick them
-#ROUNDSTART_RACES skeleton
-#ROUNDSTART_RACES zombie
-#ROUNDSTART_RACES slime
-#ROUNDSTART_RACES pod
-#ROUNDSTART_RACES military_synth
-#ROUNDSTART_RACES agent
+ROUNDSTART_RACES skeleton
+ROUNDSTART_RACES zombie
+ROUNDSTART_RACES slime
+ROUNDSTART_RACES pod
+ROUNDSTART_RACES military_synth
+ROUNDSTART_RACES agent
 
 ##-------------------------------------------------------------------------------------------
 
@@ -463,7 +463,7 @@ ROUNDSTART_RACES jelly
 #ROUNDSTART_NO_HARD_CHECK felinid
 
 ## The amount of loadout items players are allowed to spawn with. Default 10
-MAX_LOADOUT_ITEMS 10
+MAX_LOADOUT_ITEMS 100
 
 ##Overflow job. Default is assistant
 OVERFLOW_JOB Assistant
@@ -575,7 +575,7 @@ MAX_OVERMAP_EVENTS 50
 MAX_OVERMAP_DYNAMIC_EVENTS 10
 
 ## Size of the overmap squared
-OVERMAP_SIZE 12
+OVERMAP_SIZE 30
 
 ## Which overmap generator to use
 ## Valid values are: "random", "solar_system"

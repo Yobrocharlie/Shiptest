@@ -1,0 +1,15 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Squall-Class Scout Vessel",
+	"prefix": "NTSV",
+	"namelists": ["NANOTRASEN"],
+	"map_short_name": "Squall-class",
+	"map_path": "_maps/shuttles/shiptest/nanotrasen_squall.dmm",
+	"job_slots": {
+		"Security Officer": {
+			"outfit": "/datum/outfit/job/security/nanotrasen",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}

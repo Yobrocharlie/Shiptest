@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Dial-class Telecommunications Relay",
+	"prefix": "NTSV",
+	"namelists": [
+		"NANOTRASEN",
+		"MERCANTILE"
+	],
+	"map_short_name": "Dial-class",
+	"map_path": "_maps/shuttles/shiptest/nanotrasen_dial.dmm",
+	"description": "A Nanotrasen NewComm branded vessel serving as a telecommunications provider to ships across the sector, the Dial-class works to both expand Nanotrasen cohesion in the frontier and to market telecommunications machines to prospective buyers. The Dial-class utilizes engineering equipment to provide machinery installation for improved customer satisfaction. Nanotrasen private security positions can be found onboard the Dial-class to oversee asset safety and handling.",
+	"tags": ["Engineering", "Telecomms"],
+	"limit": 2,
+	"starting_funds": 6000,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/nt",
+			"officer": true,
+			"slots": 1
+		},
+		"Technical Support Engineer": {
+			"outfit": "/datum/outfit/job/engineer/nt",
+			"slots": 2
+		},
+		"Security Officer": {
+			"outfit": "/datum/outfit/job/security_officer/nt",
+			"slots": 1
+		},
+		"Technical Assistant": {
+			"outfit": "/datum/outfit/job/assistant",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
