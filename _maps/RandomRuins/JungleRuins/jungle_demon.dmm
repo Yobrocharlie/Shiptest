@@ -14,6 +14,9 @@
 "bO" = (
 /obj/structure/closet/crate/secure/weapon,
 /obj/effect/decal/cleanable/glass,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "bR" = (
@@ -296,7 +299,7 @@
 /area/ruin/powered)
 "yM" = (
 /obj/structure/table/reinforced,
-/obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
+/obj/item/storage/briefcase/sniperbundle,
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "AB" = (
@@ -397,7 +400,6 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
 "Iq" = (
-/obj/structure/chair/comfy/brown,
 /mob/living/simple_animal/hostile/cult_demon/greater{
 	health = 250;
 	name = "The Boss";
