@@ -119,7 +119,6 @@
 	name = "Scorched Hut"
 	icon_state = "red"
 
-<<<<<<< HEAD
 // Wrecked Factory
 
 /area/ruin/lavaland/factory/warehouse
