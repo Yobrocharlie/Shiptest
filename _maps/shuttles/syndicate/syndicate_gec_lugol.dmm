@@ -124,15 +124,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen)
-"bM" = (
-/obj/structure/catwalk/over/plated_catwalk/white{
-	color = "#4c535b"
-	},
-/obj/structure/chair/sofa/right{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ship/crew/canteen)
 "bR" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -944,12 +935,6 @@
 /obj/machinery/portable_atmospherics/canister,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/atmospherics)
-"iV" = (
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/crew/canteen)
 "iZ" = (
 /obj/effect/turf_decal/corner/transparent/solgovgold{
 	dir = 5
@@ -1454,9 +1439,6 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/dorm)
 "oq" = (
-/obj/structure/chair/sofa/right{
-	dir = 8
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/canteen)
 "or" = (
@@ -4925,9 +4907,6 @@
 /obj/structure/catwalk/over/plated_catwalk/white{
 	color = "#4c535b"
 	},
-/obj/structure/chair/sofa/left{
-	dir = 8
-	},
 /turf/open/floor/plating,
 /area/ship/crew/canteen)
 "Oh" = (
@@ -6719,8 +6698,8 @@ Vi
 Os
 tK
 hF
-iV
-bM
+oq
+Oa
 XP
 oA
 cA
