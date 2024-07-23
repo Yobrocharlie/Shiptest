@@ -1210,6 +1210,8 @@
 /turf/closed/wall/r_wall,
 /area/ship/crew/dorm/dormtwo)
 "kE" = (
+/obj/machinery/suit_storage_unit,
+/obj/item/clothing/suit/space/hardsuit/ert/paranormal/inquisitor,
 /turf/open/floor/carpet/nanoweave/blue,
 /area/ship/crew/chapel/office)
 "kH" = (
@@ -1733,9 +1735,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "pj" = (
-/turf/open/floor/plasteel/stairs/medium{
-	dir = 1
-	},
 /area/ship/crew/hydroponics)
 "pl" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -4554,9 +4553,6 @@
 /turf/open/floor/grass/ship/jungle,
 /area/ship/crew/hydroponics)
 "Pe" = (
-/obj/structure/chair/sofa/left{
-	dir = 8
-	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#332521";
 	dir = 6
@@ -5618,11 +5614,6 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/ship/jungle,
 /area/ship/crew/hydroponics)
-"WJ" = (
-/turf/open/floor/plasteel/stairs/medium{
-	dir = 4
-	},
-/area/ship/crew/hydroponics)
 "Xd" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood/corner,
@@ -6443,7 +6434,7 @@ Tw
 jj
 AS
 on
-WJ
+pj
 MH
 Mh
 rR
