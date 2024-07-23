@@ -2576,9 +2576,6 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "IO" = (
-/obj/structure/sign/poster/rilena/tali{
-	pixel_y = 32
-	},
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/derringer{
 	pixel_x = 5;
@@ -3318,10 +3315,7 @@
 /area/ship/cargo)
 "Ss" = (
 /obj/structure/table/wood/reinforced,
-/obj/item/modular_computer/laptop/preset/civilian/rilena{
-	pixel_x = -16;
-	pixel_y = 4
-	},
+/obj/item/modular_computer/laptop/preset/civilian,
 /turf/open/floor/carpet/nanoweave,
 /area/ship/crew/crewtwo)
 "Su" = (

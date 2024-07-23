@@ -11,7 +11,6 @@
 	name = "\proper captain's locker";
 	req_access_txt = "20"
 	},
-/obj/item/clothing/under/rank/security/officer/frontier/admiral,
 /obj/item/clothing/gloves/combat,
 /obj/item/clothing/head/beret/sec/frontier/officer,
 /obj/item/clothing/accessory/holster/detective,
@@ -1068,7 +1067,6 @@
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/security/range)
 "fD" = (
-/obj/structure/chair/comfy/black,
 /obj/effect/decal/cleanable/dirt/dust,
 /mob/living/simple_animal/pet/penguin/emperor,
 /turf/open/floor/carpet/nanoweave,
@@ -4039,10 +4037,6 @@
 	pixel_y = 7;
 	pixel_x = 4
 	},
-/obj/item/storage/box/firingpins{
-	pixel_x = -6;
-	pixel_y = 4
-	},
 /obj/item/storage/box/syndie_kit/throwing_weapons,
 /obj/machinery/light/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -4142,7 +4136,6 @@
 /obj/effect/turf_decal/industrial/warning/cee,
 /obj/machinery/suit_storage_unit/inherit/industrial,
 /obj/machinery/airalarm/directional/north,
-/obj/item/clothing/suit/space/scar,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/crew/office)
 "uB" = (
@@ -5880,13 +5873,6 @@
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/under/rank/security/officer/frontier,
-/obj/item/clothing/under/rank/security/officer/frontier,
-/obj/item/clothing/under/rank/security/officer/frontier,
-/obj/item/clothing/under/rank/security/officer/frontier,
-/obj/item/clothing/under/rank/security/officer/frontier,
-/obj/item/clothing/under/rank/security/officer/frontier,
-/obj/item/clothing/under/rank/security/officer/frontier,
 /obj/item/clothing/head/beret/sec/frontier,
 /obj/item/clothing/head/beret/sec/frontier,
 /obj/item/clothing/head/beret/sec/frontier,
@@ -6109,7 +6095,6 @@
 	},
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/gloves/combat,
-/obj/item/clothing/under/rank/security/officer/frontier/officer,
 /obj/item/clothing/head/beret/sec/frontier,
 /obj/item/clothing/neck/cloak/qm,
 /obj/item/clothing/accessory/holster,
@@ -6774,7 +6759,6 @@
 	pixel_y = -3
 	},
 /obj/item/taperecorder,
-/obj/item/switchblade,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/atmospherics)
 "Gn" = (
@@ -6810,9 +6794,6 @@
 /turf/closed/wall/r_wall/rust,
 /area/ship/bridge)
 "Gr" = (
-/obj/structure/chair/comfy/black{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
@@ -8219,7 +8200,6 @@
 	},
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/gloves/combat,
-/obj/item/clothing/under/rank/security/officer/frontier/officer,
 /obj/item/clothing/head/beret/sec/frontier,
 /obj/item/clothing/neck/cloak/qm,
 /obj/item/clothing/accessory/holster,
@@ -8567,9 +8547,6 @@
 "Nn" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
-	},
-/obj/structure/chair/comfy/black{
-	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
@@ -9000,13 +8977,6 @@
 /obj/effect/turf_decal/techfloor/hole{
 	dir = 8
 	},
-/obj/item/ammo_box/c45_speedloader{
-	pixel_y = -3
-	},
-/obj/item/ammo_box/c45_speedloader{
-	pixel_y = -1;
-	pixel_x = 1
-	},
 /obj/item/storage/box/lethalshot{
 	pixel_x = -3
 	},
@@ -9018,13 +8988,6 @@
 	pixel_y = -4
 	},
 /obj/item/ammo_box/magazine/uzim9mm,
-/obj/item/ammo_box/c45_speedloader{
-	pixel_y = -3
-	},
-/obj/item/ammo_box/c45_speedloader{
-	pixel_y = -5;
-	pixel_x = -1
-	},
 /obj/item/ammo_box/magazine/illestren_a850r,
 /obj/item/ammo_box/magazine/illestren_a850r,
 /obj/item/storage/toolbox/ammo/a850r{
