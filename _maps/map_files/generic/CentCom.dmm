@@ -1084,14 +1084,6 @@
 /area/centcom/control)
 "apm" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/automatic/marksman/gal/inteq{
-	pixel_x = 1;
-	pixel_y = 4
-	},
-/obj/item/gun/ballistic/automatic/marksman/gal/inteq{
-	pixel_x = -4;
-	pixel_y = -2
-	},
 /turf/open/floor/plasteel,
 /area/centcom)
 "apt" = (
@@ -3040,10 +3032,6 @@
 /turf/open/floor/plating/asteroid,
 /area/tdome/tdomeobserve)
 "aEW" = (
-/obj/structure/table/wood,
-/turf/open/floor/plasteel,
-/area/wizard_station)
-"aEX" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel,
 /area/wizard_station)
@@ -23766,7 +23754,7 @@ auE
 aEc
 auE
 aAx
-aEX
+aEW
 aqZ
 aqZ
 aGr
