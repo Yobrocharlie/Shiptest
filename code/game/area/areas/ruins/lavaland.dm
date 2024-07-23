@@ -152,7 +152,6 @@
 	requires_power = FALSE
 //Buried Shrine
 
->>>>>>> parent of f11a7aaaec (THE RUINCUT [AFFRONT TO GOD] (#3026))
 /area/ruin/unpowered/buried_shrine
 	name = "Buried Shrine"
 	icon_state = "red"
