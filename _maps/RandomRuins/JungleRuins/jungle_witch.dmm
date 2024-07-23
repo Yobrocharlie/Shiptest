@@ -9,7 +9,6 @@
 	pixel_y = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/magic/wand/nothing,
 /obj/structure/table/wood/fancy,
 /turf/open/floor/wood,
 /area/ruin/powered)
@@ -82,7 +81,6 @@
 "nV" = (
 /obj/item/bedsheet/black,
 /obj/structure/bed,
-/mob/living/simple_animal/hostile/dark_wizard,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/clothing/gloves/combat/wizard,
 /turf/open/floor/wood,
@@ -237,10 +235,6 @@
 /obj/structure/trap/chill,
 /turf/open/water/jungle/lit,
 /area/overmap_encounter/planetoid/jungle/explored)
-"Go" = (
-/mob/living/simple_animal/hostile/dark_wizard,
-/turf/open/floor/wood,
-/area/ruin/powered)
 "Gx" = (
 /mob/living/simple_animal/pet/cat/Runtime{
 	name = "Witches Familiar"
@@ -387,7 +381,7 @@ ym
 Kc
 Kc
 Uy
-Go
+Kc
 Kc
 Eq
 wI

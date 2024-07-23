@@ -2163,10 +2163,6 @@
 /area/ruin/powered)
 "uB" = (
 /obj/structure/table/wood,
-/obj/item/switchblade{
-	pixel_x = -3;
-	pixel_y = 4
-	},
 /obj/item/coin/antagtoken{
 	pixel_x = 4;
 	pixel_y = -2
@@ -4648,6 +4644,11 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
+/area/ruin/powered)
+"RA" = (
+/obj/item/clothing/suit/space/hardsuit/shielded,
+/obj/structure/safe,
+/turf/open/floor/plating/rust,
 /area/ruin/powered)
 "RG" = (
 /obj/machinery/door/airlock/maintenance{
@@ -7281,7 +7282,7 @@ in
 xx
 zK
 YB
-av
+RA
 XF
 JX
 wM

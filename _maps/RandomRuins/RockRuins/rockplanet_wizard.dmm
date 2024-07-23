@@ -24,8 +24,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "i" = (
-/mob/living/simple_animal/hostile/dark_wizard,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/trap,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "k" = (
@@ -58,10 +58,12 @@
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "t" = (
 /obj/structure/mineral_door/iron,
+/obj/effect/spawner/trap,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "u" = (
 /obj/structure/closet/crate/miningcar,
+/obj/item/clothing/suit/space/hardsuit/shielded/wizard,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "x" = (
@@ -86,6 +88,12 @@
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "C" = (
 /obj/effect/decal/cleanable/crayon,
+/obj/effect/spawner/trap,
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/rockplanet/explored)
+"D" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/gibspawner/robot,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "E" = (
@@ -95,6 +103,10 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/rockplanet/explored)
+"F" = (
+/obj/effect/gibspawner,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "H" = (
@@ -114,6 +126,7 @@
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "L" = (
 /obj/item/candle/infinite,
+/obj/effect/gibspawner/generic/animal,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "M" = (
@@ -142,7 +155,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "R" = (
-/mob/living/simple_animal/hostile/dark_wizard,
+/obj/effect/spawner/trap,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "S" = (
@@ -161,8 +174,6 @@
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "V" = (
 /obj/structure/table/wood,
-/obj/item/clothing/head/helmet/knight,
-/obj/item/clothing/suit/armor/riot/knight,
 /turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "Z" = (
@@ -201,8 +212,8 @@ a
 m
 d
 I
-i
-T
+e
+R
 E
 m
 a
@@ -211,8 +222,8 @@ a
 r
 B
 s
-T
-T
+R
+F
 z
 T
 N
@@ -221,8 +232,8 @@ r
 (5,1,1) = {"
 r
 M
-e
-R
+D
+T
 S
 C
 e
@@ -233,10 +244,10 @@ t
 r
 H
 y
-T
+R
 T
 L
-T
+R
 o
 r
 "}

@@ -31,7 +31,6 @@
 /turf/open/floor/plasteel/dark,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "h" = (
-/obj/item/stack/sheet/runed_metal/ten,
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/plating/rust,
 /area/overmap_encounter/planetoid/rockplanet/explored)

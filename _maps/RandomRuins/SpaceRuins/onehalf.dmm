@@ -138,11 +138,6 @@
 /obj/machinery/vending/snack,
 /turf/open/floor/plasteel/cult/airless,
 /area/ruin/space/has_grav/onehalf)
-"ay" = (
-/obj/structure/lattice,
-/obj/item/stack/sheet/runed_metal,
-/turf/open/space/basic,
-/area/space/nearstation)
 "az" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/plasteel/airless,
@@ -257,11 +252,6 @@
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/onehalf)
-"aT" = (
-/obj/structure/lattice,
-/obj/item/stack/sheet/runed_metal,
-/turf/open/space,
-/area/space/nearstation)
 "aU" = (
 /obj/effect/turf_decal/solarpanel,
 /obj/machinery/power/solar,
@@ -814,11 +804,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf)
-"cr" = (
-/obj/structure/girder/displaced,
-/obj/item/stack/sheet/runed_metal,
-/turf/open/floor/plasteel/cult/airless,
-/area/space/nearstation)
 "cs" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1673,10 +1658,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/onehalf)
-"BD" = (
-/obj/item/stack/sheet/runed_metal,
-/turf/open/floor/plasteel/cult/airless,
-/area/ruin/space/has_grav/onehalf)
 "Cl" = (
 /obj/structure/lattice,
 /obj/structure/railing{
@@ -1752,11 +1733,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/onehalf)
-"FC" = (
-/obj/structure/girder/reinforced,
-/obj/item/stack/sheet/runed_metal,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/onehalf)
 "Ga" = (
 /obj/effect/turf_decal/solarpanel,
 /obj/machinery/power/solar,
@@ -1777,12 +1753,6 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/space/has_grav/onehalf)
-"Gv" = (
-/obj/structure/frame/computer{
-	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/onehalf)
@@ -2388,7 +2358,7 @@ aa
 cE
 aa
 cE
-aT
+cE
 aa
 aa
 aa
@@ -2466,7 +2436,7 @@ cj
 er
 aa
 aa
-cr
+Xk
 aH
 aa
 aa
@@ -2687,7 +2657,7 @@ aa
 aH
 aH
 cX
-ay
+aH
 aa
 aa
 "}
@@ -2787,8 +2757,8 @@ OE
 WP
 bo
 ax
-FC
-FC
+bQ
+bQ
 cj
 aa
 aa
@@ -2902,7 +2872,7 @@ aa
 aH
 cD
 aa
-BD
+Dw
 Ep
 aa
 aa
@@ -3008,7 +2978,7 @@ ch
 ws
 tB
 cL
-BD
+Dw
 Dw
 dd
 aW
@@ -3366,7 +3336,7 @@ bU
 UM
 cp
 ZX
-Gv
+Ra
 Ra
 cU
 YE

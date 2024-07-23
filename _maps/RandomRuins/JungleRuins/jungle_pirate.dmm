@@ -51,6 +51,8 @@
 "iw" = (
 /obj/item/ammo_box/c45,
 /obj/structure/table/wood/poker,
+/obj/item/ammo_box/c45,
+/obj/item/ammo_box/c45,
 /turf/open/floor/wood,
 /area/ruin/unpowered)
 "iC" = (
@@ -97,6 +99,7 @@
 "nD" = (
 /obj/item/ammo_box/a40mm,
 /obj/structure/table/wood/poker,
+/obj/item/ammo_box/a40mm,
 /turf/open/floor/wood,
 /area/ruin/unpowered)
 "of" = (
@@ -265,7 +268,6 @@
 /turf/open/floor/wood,
 /area/ruin/unpowered)
 "LD" = (
-/obj/item/ammo_box/c45_speedloader,
 /obj/structure/table/wood/poker,
 /turf/open/floor/wood,
 /area/ruin/unpowered)
@@ -316,7 +318,11 @@
 /obj/item/gun/ballistic/shotgun/brimstone,
 /obj/item/gun/ballistic/shotgun/brimstone,
 /obj/item/gun/ballistic/shotgun/brimstone,
-/obj/item/gun/grenadelauncher,
+/obj/item/gun/ballistic/revolver/grenadelauncher,
+/obj/item/spacecash/bundle/c500,
+/obj/item/spacecash/bundle/c500,
+/obj/item/spacecash/bundle/c500,
+/obj/item/spacecash/bundle/c500,
 /turf/open/floor/wood,
 /area/ruin/unpowered)
 "SA" = (
