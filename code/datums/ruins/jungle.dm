@@ -54,6 +54,12 @@
 	description = "A rare seedling plant."
 	suffix = "jungle_seedling.dmm"
 
+/datum/map_template/ruin/jungle/demon
+	name = "Demonic Office"
+	id = "demonjungle"
+	description = "They handle the paperwork that comes with selling your soul."
+	suffix = "jungle_demon.dmm"
+
 /datum/map_template/ruin/jungle/hangar
 	name = "Abandoned Hangar"
 	id = "hangar"
@@ -77,6 +83,12 @@
 	id = "monkeyvillage"
 	description = "A small village of monkeys."
 	suffix = "jungle_village.dmm"
+
+/datum/map_template/ruin/jungle/witch
+	name = "Jungle Witch"
+	id = "witchjungle"
+	description = "Some heretical sorcerer living in a dingy hut, with a cat."
+	suffix = "jungle_witch.dmm"
 
 /datum/map_template/ruin/jungle/roommates
 	name = "Roommates"

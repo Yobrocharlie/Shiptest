@@ -1353,11 +1353,11 @@
 /turf/open/floor/grass,
 /area/centcom/evac)
 "aqZ" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ara" = (
 /obj/machinery/computer/helm,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ard" = (
 /obj/structure/flora/grass/brown,
@@ -1483,11 +1483,11 @@
 /area/centcom/evac)
 "arW" = (
 /obj/machinery/light/directional/west,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "arX" = (
 /obj/machinery/light/directional/east,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "arY" = (
 /obj/item/clipboard,
@@ -1589,7 +1589,7 @@
 	icon_state = "processor";
 	name = "byond random number generator"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "asX" = (
 /obj/structure/showcase{
@@ -1598,7 +1598,7 @@
 	icon_state = "nim";
 	name = "wizard of yendor showcase"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "asY" = (
 /obj/machinery/door/airlock/centcom{
@@ -1697,7 +1697,7 @@
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Cockpit"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "atY" = (
 /obj/effect/baseturf_helper/asteroid/snow,
@@ -1988,14 +1988,14 @@
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Observation Room"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "awc" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Game Room"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "awd" = (
 /obj/structure/chair/wood/wings{
@@ -2082,11 +2082,11 @@
 /obj/machinery/light/small/directional/west{
 	brightness = 3
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "awO" = (
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "awP" = (
 /obj/structure/table/wood/fancy,
@@ -2191,7 +2191,7 @@
 /area/wizard_station)
 "axx" = (
 /obj/machinery/vending/snack,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "axy" = (
 /obj/structure/table/wood/fancy,
@@ -2263,14 +2263,14 @@
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Study"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ayb" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Break Room"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ayd" = (
 /obj/structure/flora/ausbushes/fernybush,
@@ -2314,19 +2314,19 @@
 /area/centcom/evac)
 "ayC" = (
 /obj/structure/chair/wood/wings,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ayD" = (
 /obj/structure/table/wood,
 /obj/item/stack/medical/bruise_pack,
 /obj/item/stack/medical/ointment,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ayE" = (
 /obj/structure/table/wood,
 /obj/item/retractor,
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ayF" = (
 /obj/structure/table/wood,
@@ -2337,14 +2337,14 @@
 	pixel_y = 28
 	},
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ayG" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/wizrobe/magusred,
 /obj/item/clothing/head/wizard/magus,
 /obj/item/staff,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "ayH" = (
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/lizard,
@@ -2411,6 +2411,10 @@
 /obj/structure/chair/stool,
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership/control)
+"azo" = (
+/obj/structure/destructible/cult/tome,
+/turf/open/floor/engine/cult,
+/area/wizard_station)
 "azp" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -2419,7 +2423,7 @@
 /obj/item/clothing/head/wizard/red,
 /obj/item/staff,
 /obj/item/clothing/shoes/sandal/magic,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "azq" = (
 /turf/open/floor/grass,
@@ -2464,18 +2468,21 @@
 /area/centcom/evac)
 "azN" = (
 /obj/structure/bookcase/random/reference,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "azO" = (
+/obj/structure/destructible/cult/talisman{
+	desc = "An altar dedicated to the Wizards' Federation"
+	},
 /obj/item/kitchen/knife/ritual,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "azP" = (
 /obj/item/clothing/shoes/sandal/marisa,
 /obj/item/clothing/suit/wizrobe/marisa,
 /obj/item/clothing/head/wizard/marisa,
 /obj/item/staff/broom,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "azQ" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2573,7 +2580,7 @@
 /area/wizard_station)
 "aAy" = (
 /obj/effect/landmark/start/wizard,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aAz" = (
 /obj/effect/decal/remains/human,
@@ -2681,7 +2688,7 @@
 /obj/structure/chair/wood/wings{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aBg" = (
 /mob/living/simple_animal/bot/medbot/mysterious{
@@ -2689,11 +2696,11 @@
 	faction = list("neutral","silicon","creature");
 	name = "Nobody's Perfect"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aBh" = (
 /obj/machinery/light/directional/south,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aBi" = (
 /obj/item/reagent_containers/food/snacks/meat/slab/xeno,
@@ -2742,7 +2749,7 @@
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Observation Deck"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aBU" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
@@ -2770,7 +2777,7 @@
 /area/centcom/evac)
 "aCi" = (
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aCp" = (
 /obj/structure/statue/uranium/nuke,
@@ -2871,21 +2878,21 @@
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Storage"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aDD" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Personal Quarters"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aDE" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
 	name = "Bathroom"
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aDK" = (
 /obj/structure/table/reinforced,
@@ -2990,7 +2997,7 @@
 	name = "Engine Room"
 	},
 /obj/structure/barricade/wooden,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aED" = (
 /obj/machinery/vending/boozeomat,
@@ -3041,11 +3048,20 @@
 /area/tdome/tdomeobserve)
 "aEW" = (
 /obj/structure/table/wood,
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aEX" = (
 /obj/structure/table/wood,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
+=======
+/obj/item/gun/magic/wand{
+	desc = "Used in emergencies to reignite magma engines.";
+	max_charges = 0;
+	name = "wand of emergency engine ignition"
+	},
+/turf/open/floor/engine/cult,
+>>>>>>> parent of 6b499e0763 (Removes the Blood Cult from Maps (#2776))
 /area/wizard_station)
 "aEY" = (
 /obj/structure/table/wood,
@@ -3053,7 +3069,7 @@
 	pixel_x = -8;
 	pixel_y = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/engine/cult,
 /area/wizard_station)
 "aFa" = (
 /obj/structure/table/wood,
@@ -3110,6 +3126,13 @@
 /obj/item/soap/nanotrasen,
 /turf/open/floor/plasteel/white,
 /area/tdome/tdomeobserve)
+"aFT" = (
+/obj/structure/destructible/cult/forge{
+	desc = "An engine used in powering the wizard's ship";
+	name = "magma engine"
+	},
+/turf/open/floor/engine/cult,
+/area/wizard_station)
 "aFW" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -21697,9 +21720,9 @@ aqE
 aqE
 aqE
 ayC
-aqZ
+azo
 azN
-aqZ
+azo
 aBf
 aqE
 aAx
@@ -22468,9 +22491,9 @@ avj
 avj
 aqE
 ayC
+azo
 aqZ
-aqZ
-aqZ
+azo
 aBf
 aqE
 aqZ
@@ -23254,7 +23277,7 @@ aqE
 aqE
 aqZ
 aqZ
-aqZ
+aFT
 aGr
 aqE
 alI
@@ -24282,7 +24305,7 @@ aqE
 aqE
 aEY
 aqZ
-aqZ
+aFT
 aGr
 aqE
 alI

@@ -1106,7 +1106,9 @@
 "el" = (
 /obj/structure/table/glass,
 /obj/item/toy/plush/lizardplushie,
-/obj/item/kitchen/knife,
+/obj/item/toy/toy_dagger{
+	pixel_x = 10
+	},
 /turf/open/floor/light,
 /area/ruin/space/has_grav/spacemall/shop2)
 "eo" = (

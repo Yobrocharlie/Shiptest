@@ -70,10 +70,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "hD" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood{
-	icon_state = "wood-broken5"
-	},
+/turf/open/floor/engine/cult,
 /area/ruin/powered)
 "hI" = (
 /obj/item/reagent_containers/food/drinks/beer,
@@ -128,17 +125,12 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "mi" = (
 /obj/effect/decal/remains/human,
-/obj/item/flashlight/lamp/green{
-	pixel_y = 12;
-	pixel_x = 8
+/mob/living/simple_animal/hostile/construct/juggernaut/hostile{
+	health = 450;
+	maxHealth = 450;
+	name = "Right Hand of the Elder"
 	},
-/obj/item/cigbutt/cigarbutt{
-	pixel_x = -7;
-	pixel_y = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
+/turf/open/floor/engine/cult,
 /area/ruin/powered)
 "mI" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -324,7 +316,7 @@
 "AM" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/item/pickaxe,
-/turf/open/floor/wood,
+/turf/open/floor/engine/cult,
 /area/ruin/powered)
 "AN" = (
 /obj/structure/closet/cabinet,
@@ -348,11 +340,17 @@
 /turf/open/floor/carpet,
 /area/ruin/powered)
 "Cl" = (
+/obj/structure/sacrificealtar,
 /obj/effect/decal/cleanable/blood/old,
+<<<<<<< HEAD
 /obj/structure/chair/comfy/orange/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
+=======
+/obj/item/kitchen/knife/bloodletter,
+/turf/open/floor/engine/cult,
+>>>>>>> parent of 6b499e0763 (Removes the Blood Cult from Maps (#2776))
 /area/ruin/powered)
 "Dm" = (
 /obj/structure/flora/grass/brown,
@@ -382,12 +380,13 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "EF" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
-/obj/structure/safe,
-/obj/item/ammo_box/a12g/slug,
-/obj/item/kitchen/knife/combat,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
+/obj/effect/decal/remains/human,
+/mob/living/simple_animal/hostile/construct/juggernaut/hostile{
+	health = 450;
+	maxHealth = 450;
+	name = "Left Hand of the Elder"
+	},
+/turf/open/floor/engine/cult,
 /area/ruin/powered)
 "FR" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -482,9 +481,23 @@
 /area/ruin/powered)
 "PQ" = (
 /obj/effect/decal/cleanable/blood/splatter,
+<<<<<<< HEAD
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
+=======
+/mob/living/simple_animal/hostile/illusion{
+	deathmessage = "disperses into the air in a cloud of red mist, you feel slightly more at ease.";
+	desc = "You can't quite make out what you're seeing.";
+	faction = list("cult");
+	health = 500;
+	maxHealth = 500;
+	melee_damage_lower = 10;
+	melee_damage_upper = 30;
+	name = "Village Elder"
+	},
+/turf/open/floor/engine/cult,
+>>>>>>> parent of 6b499e0763 (Removes the Blood Cult from Maps (#2776))
 /area/ruin/powered)
 "Qt" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -554,7 +567,7 @@
 "WH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed,
-/obj/item/bedsheet/dorms,
+/obj/item/bedsheet/cult,
 /turf/open/floor/wood,
 /area/ruin/powered)
 "Ze" = (

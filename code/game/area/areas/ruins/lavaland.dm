@@ -61,6 +61,12 @@
 	icon_state = "dk_yellow"
 
 
+//Cult Altar
+
+/area/ruin/unpowered/cultaltar
+	name = "Cult Altar"
+	ambientsounds = SPOOKY
+
 //Xeno Nest
 
 /area/ruin/unpowered/xenonest
