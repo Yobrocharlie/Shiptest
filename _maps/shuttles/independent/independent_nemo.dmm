@@ -204,7 +204,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/science)
 "cj" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/blue/corpo/right,
 /turf/open/floor/wood,
 /area/ship/crew/dorm)
 "cq" = (
@@ -905,6 +905,10 @@
 "kJ" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/engineering/atmospherics)
+"kS" = (
+/obj/structure/chair/sofa/blue,
+/turf/open/floor/carpet/black,
+/area/ship/crew/library)
 "kW" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
@@ -1213,6 +1217,10 @@
 	},
 /turf/open/floor/plating,
 /area/ship/science)
+"pv" = (
+/obj/structure/chair/sofa/blue/corner,
+/turf/open/floor/carpet/black,
+/area/ship/crew/library)
 "px" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -1392,10 +1400,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/science)
 "rO" = (
-/obj/structure/chair/comfy/black{
-	dir = 8
-	},
 /obj/machinery/airalarm/directional/east,
+/obj/structure/chair/sofa/blue/directional/west,
 /turf/open/floor/carpet/black,
 /area/ship/crew/library)
 "se" = (
@@ -1421,11 +1427,11 @@
 /turf/open/floor/wood,
 /area/ship/crew/library)
 "tQ" = (
-/obj/structure/chair/sofa/left,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /obj/machinery/firealarm/directional/east,
+/obj/structure/chair/sofa/blue/corpo/left/directional,
 /turf/open/floor/wood,
 /area/ship/crew/dorm)
 "tX" = (
@@ -1664,6 +1670,10 @@
 /obj/item/pickaxe/emergency,
 /turf/open/floor/pod,
 /area/ship/hallway/central)
+"yk" = (
+/obj/structure/chair/sofa/blue/corner/directional/east,
+/turf/open/floor/carpet/black,
+/area/ship/crew/library)
 "ym" = (
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
@@ -1757,7 +1767,6 @@
 /obj/item/camera,
 /obj/item/gps,
 /obj/item/binoculars,
-/obj/item/radio/off,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -2176,7 +2185,6 @@
 	pixel_x = -32;
 	req_access = list(30)
 	},
-/obj/item/firing_pin,
 /obj/item/kitchen/knife/hunting,
 /obj/item/gun/ballistic/shotgun/doublebarrel/beacon,
 /obj/item/ammo_box/a4570,
@@ -2205,10 +2213,6 @@
 	dir = 8;
 	pixel_x = 32
 	},
-/obj/item/radio/off,
-/obj/item/radio/off,
-/obj/item/radio/off,
-/obj/item/radio/off,
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
@@ -2332,6 +2336,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/science)
 "Jp" = (
+/obj/structure/chair/sofa/blue/directional/east,
 /turf/open/floor/carpet/black,
 /area/ship/crew/library)
 "Jr" = (
@@ -2571,7 +2576,6 @@
 /obj/item/pipe_dispenser,
 /obj/item/construction/rcd/loaded,
 /obj/item/clothing/suit/hooded/wintercoat/engineering,
-/obj/item/radio/off,
 /obj/item/holosign_creator/atmos,
 /obj/item/multitool,
 /obj/item/clothing/gloves/color/yellow,
@@ -2638,7 +2642,6 @@
 /obj/item/card/id/captains_spare,
 /obj/item/pen/survival,
 /obj/item/areaeditor/shuttle,
-/obj/item/radio/off,
 /obj/structure/closet/secure_closet{
 	icon_state = "rd";
 	name = "research director's locker";
@@ -2961,12 +2964,6 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
-"Rh" = (
-/obj/structure/chair/comfy/black{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
-/area/ship/crew/library)
 "Rz" = (
 /obj/machinery/door/window/westleft{
 	dir = 4
@@ -3010,7 +3007,6 @@
 /obj/item/pipe_dispenser,
 /obj/item/clothing/glasses/meson/engine/tray,
 /obj/machinery/atmospherics/pipe/simple/green/visible/layer5,
-/obj/item/radio/off,
 /obj/item/storage/belt/utility/atmostech,
 /obj/item/holosign_creator/atmos,
 /obj/item/analyzer,
@@ -3458,9 +3454,6 @@
 /turf/open/floor/circuit/green,
 /area/ship/crew/dorm)
 "Yb" = (
-/obj/structure/chair/comfy/brown{
-	dir = 4
-	},
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -3498,10 +3491,6 @@
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/atmospherics)
-"YE" = (
-/obj/structure/chair/comfy/black,
-/turf/open/floor/carpet/black,
-/area/ship/crew/library)
 "YO" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
@@ -4085,8 +4074,8 @@ dN
 Oe
 FG
 FG
+yk
 Jp
-Rh
 Cv
 tb
 tb
@@ -4106,7 +4095,7 @@ jg
 BN
 kW
 yA
-YE
+kS
 uK
 Cv
 tb
@@ -4127,7 +4116,7 @@ Ax
 pR
 tf
 FG
-YE
+kS
 Xi
 Cv
 tb
@@ -4148,7 +4137,7 @@ ma
 Kb
 FG
 FG
-Jp
+pv
 rO
 Cv
 tb
