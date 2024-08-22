@@ -1,8 +1,122 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/turf/template_noop,
+"aJ" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"aK" = (
+/obj/machinery/door/airlock/vault,
+/turf/open/floor/plating,
 /area/template_noop)
-"c" = (
+"aL" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "DanielGarage"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"bS" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"ei" = (
+/obj/machinery/porta_turret/ship/ballistic,
+/turf/closed/wall/r_wall,
+/area/ship/engineering/engine)
+"en" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"eU" = (
+/obj/structure/closet/crate/secure/science,
+/obj/item/circuitboard/machine/protolathe,
+/obj/item/circuitboard/machine/circuit_imprinter,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"fc" = (
+/turf/open/floor/plating,
+/area/template_noop)
+"fK" = (
+/obj/machinery/power/smes,
+/obj/structure/cable{
+	icon_state = "0-1"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"gM" = (
+/obj/machinery/computer/crew/retro,
+/turf/open/floor/circuit,
+/area/template_noop)
+"he" = (
+/obj/structure/AIcore,
+/obj/item/circuitboard/aicore,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"mn" = (
+/obj/machinery/button/door{
+	name = "Garage Control";
+	dir = 4;
+	pixel_y = -7;
+	pixel_x = -23;
+	id = "DanielGarage"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"qQ" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"si" = (
+/obj/structure/mecha_wreckage/marauder,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"tK" = (
+/turf/closed/wall/r_wall,
+/area/ship/engineering/engine)
+"ui" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"uV" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
@@ -11,25 +125,50 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"d" = (
-/obj/machinery/button/door{
-	name = "Engine Shutters";
-	dir = 4;
-	pixel_y = -7;
-	pixel_x = -23;
-	id = "kiloengine"
+"vj" = (
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"e" = (
-/obj/machinery/portable_atmospherics/pump,
+"wy" = (
+/turf/template_noop,
+/area/template_noop)
+"wB" = (
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"xV" = (
+/obj/structure/closet/wall/blue/directional/north,
+/obj/item/aicard{
+	pixel_x = -5
+	},
+/obj/item/aiModule/toyAI,
+/obj/item/borg/upgrade/ai,
+/obj/item/mmi/posibrain{
+	pixel_x = 7;
+	pixel_y = 11;
+	name = "Saga Bootup Procedure"
+	},
+/turf/open/floor/circuit,
+/area/template_noop)
+"yD" = (
+/obj/structure/cable{
+	icon_state = "0-1"
+	},
+/obj/machinery/power/terminal,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"g" = (
-/obj/machinery/power/ship_gravity,
+"yR" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	piping_layer = 2
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"h" = (
+"zw" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
@@ -38,7 +177,18 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"j" = (
+"BX" = (
+/obj/structure/closet/crate/eva,
+/obj/effect/spawner/lootdrop/maintenance/four,
+/obj/effect/spawner/lootdrop/maintenance/six,
+/obj/effect/spawner/lootdrop/maintenance/six,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"BZ" = (
+/obj/machinery/airalarm/all_access,
+/turf/closed/wall/r_wall,
+/area/ship/engineering/engine)
+"Ch" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
@@ -47,10 +197,112 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"k" = (
-/turf/closed/wall/r_wall,
+"Dn" = (
+/obj/machinery/door/airlock/maintenance,
+/obj/machinery/door/firedoor/heavy,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/ship/engineering/engine)
-"m" = (
+"Dr" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Dx" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/closet/wall/orange/directional/north,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/construction/rcd,
+/obj/item/storage/belt/utility,
+/obj/item/rcd_ammo/large,
+/obj/item/rcd_ammo/large,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"EO" = (
+/obj/structure/AIcore,
+/obj/item/circuitboard/aicore,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/rglass,
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/circuit,
+/area/template_noop)
+"FR" = (
+/obj/machinery/blackbox_recorder{
+	name = "SAGA remote data saving center";
+	desc = "Where are the other three?!"
+	},
+/turf/open/floor/circuit,
+/area/template_noop)
+"Gc" = (
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Gl" = (
+/obj/machinery/porta_turret/ship/ballistic,
+/turf/template_noop,
+/area/template_noop)
+"Hd" = (
+/obj/machinery/announcement_system,
+/turf/open/floor/circuit,
+/area/template_noop)
+"Hg" = (
+/obj/machinery/computer/rdconsole/core,
+/turf/open/floor/circuit,
+/area/template_noop)
+"Hr" = (
+/mob/living/carbon/human/species/ipc,
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/structure/curtain/cloth/fancy,
+/obj/item/clothing/under/suit/charcoal,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/gloves/color/black,
+/obj/item/radio/headset/heads/captain/alt,
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/circuit,
+/area/template_noop)
+"HI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/door/firedoor/heavy,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"HK" = (
+/obj/machinery/power/ship_gravity,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Ig" = (
+/turf/open/floor/circuit,
+/area/template_noop)
+"JC" = (
 /obj/machinery/power/smes/shuttle{
 	dir = 4
 	},
@@ -71,7 +323,11 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"n" = (
+"Kd" = (
+/obj/machinery/portable_atmospherics/pump,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"KY" = (
 /obj/machinery/power/terminal{
 	dir = 8
 	},
@@ -83,7 +339,23 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"p" = (
+"Lg" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"NI" = (
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"OL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"ON" = (
 /obj/machinery/power/port_gen/pacman/super,
 /obj/structure/cable,
 /obj/structure/cable{
@@ -91,72 +363,51 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"q" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/closet/wall/orange/directional/east,
-/obj/item/stack/sheet/mineral/uranium/twenty,
-/obj/item/stack/sheet/mineral/plasma/ten,
-/turf/open/floor/plating,
+"OP" = (
+/obj/machinery/power/apc,
+/turf/closed/wall/r_wall,
 /area/ship/engineering/engine)
-"u" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/closet/wall/orange/directional/north,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/syndicate,
-/obj/item/storage/toolbox/electrical,
-/obj/item/storage/toolbox/electrical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/construction/rcd,
-/obj/item/storage/belt/utility,
-/obj/item/rcd_ammo/large,
-/obj/item/rcd_ammo/large,
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"w" = (
-/obj/machinery/door/airlock/maintenance,
-/obj/machinery/door/firedoor/heavy,
-/obj/machinery/door/firedoor/border_only,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"x" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/machinery/door/firedoor/heavy,
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"z" = (
+"PF" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /obj/structure/closet/wall/orange/directional/south,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"A" = (
+"Ri" = (
+/obj/machinery/button/door{
+	name = "Engine Shutters";
+	dir = 4;
+	pixel_y = -7;
+	pixel_x = -23;
+	id = "kiloengine"
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"D" = (
+"RW" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"So" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/closet/wall/orange/directional/east,
+/obj/item/stack/sheet/mineral/uranium/twenty,
+/obj/item/stack/sheet/mineral/plasma/ten,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Ss" = (
 /obj/machinery/power/smes/shuttle{
 	dir = 4
 	},
@@ -177,7 +428,41 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"F" = (
+"St" = (
+/obj/machinery/rnd/server,
+/obj/item/radio/intercom/wideband/directional/west,
+/turf/open/floor/circuit,
+/area/template_noop)
+"Tm" = (
+/obj/machinery/porta_turret/ship/ballistic,
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"Ut" = (
+/obj/machinery/airalarm/all_access,
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"VM" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/closet/wall/orange/directional/east,
+/obj/item/stack/sheet/mineral/uranium/twenty,
+/obj/item/stack/sheet/mineral/plasma/ten,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Wn" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance/eight,
+/obj/effect/spawner/lootdrop/maintenance/four,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"WM" = (
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
 	},
@@ -197,729 +482,611 @@
 	},
 /turf/open/floor/plating,
 /area/ship/external)
-"H" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"I" = (
-/obj/machinery/button/door{
-	name = "Garage Control";
-	dir = 4;
-	pixel_y = -7;
-	pixel_x = -23;
-	id = "DanielGarage"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"J" = (
+"XO" = (
 /obj/machinery/power/smes,
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"L" = (
-/obj/machinery/power/port_gen/pacman,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"M" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/closet/wall/orange/directional/east,
-/obj/item/stack/sheet/mineral/uranium/twenty,
-/obj/item/stack/sheet/mineral/plasma/ten,
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"N" = (
-/obj/machinery/power/port_gen/pacman,
 /obj/structure/cable{
 	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"O" = (
-/obj/machinery/door/poddoor/shutters{
-	id = "DanielGarage"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"Q" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"S" = (
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"T" = (
-/obj/machinery/power/port_gen/pacman/super,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"V" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"W" = (
-/obj/machinery/atmospherics/components/unary/tank/air{
-	piping_layer = 2
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"X" = (
-/obj/machinery/portable_atmospherics/scrubber,
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
-"Z" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 
 (1,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (2,1,1) = {"
-a
-k
-F
-F
-F
-F
-k
-F
-F
-F
-F
-k
-a
+wy
+tK
+WM
+WM
+WM
+WM
+tK
+WM
+WM
+WM
+WM
+tK
+wy
 "}
 (3,1,1) = {"
-a
-k
-m
-D
-m
-D
-k
-m
-D
-m
-D
-k
-a
+wy
+ei
+JC
+Ss
+JC
+Ss
+tK
+JC
+Ss
+JC
+Ss
+ei
+wy
 "}
 (4,1,1) = {"
-a
-k
-n
-n
-n
-n
-d
-n
-n
-n
-n
-k
-a
+wy
+tK
+Dr
+KY
+KY
+KY
+Ri
+KY
+KY
+KY
+KY
+BZ
+wy
 "}
 (5,1,1) = {"
-a
-k
-u
-S
-j
-j
-h
-c
-c
-V
-z
-k
-a
+wy
+tK
+Dx
+ui
+Ch
+Ch
+zw
+uV
+uV
+bS
+PF
+tK
+wy
 "}
 (6,1,1) = {"
-a
-k
-J
-Z
-A
-A
-H
-A
-A
-Q
-J
-k
-a
+wy
+tK
+XO
+en
+NI
+NI
+Lg
+NI
+NI
+aJ
+fK
+tK
+wy
 "}
 (7,1,1) = {"
-a
-k
-J
-M
-p
-L
-H
-N
-T
-q
-J
-k
-a
+wy
+tK
+XO
+So
+ON
+RW
+Lg
+qQ
+vj
+VM
+yD
+OP
+wy
 "}
 (8,1,1) = {"
-a
-k
-k
-k
-k
-k
-H
-k
-k
-k
-k
-k
-a
+wy
+ei
+tK
+tK
+tK
+tK
+Lg
+tK
+tK
+tK
+tK
+ei
+wy
 "}
 (9,1,1) = {"
-a
-O
-I
-A
-A
-k
-H
-k
-W
-W
-X
-k
-a
+wy
+aL
+mn
+Wn
+BX
+tK
+OL
+tK
+yR
+yR
+Gc
+tK
+wy
 "}
 (10,1,1) = {"
-a
-O
-A
-A
-A
-w
-H
-w
-A
-A
-A
-k
-a
+wy
+aL
+NI
+NI
+NI
+Dn
+Lg
+Dn
+NI
+NI
+NI
+tK
+wy
 "}
 (11,1,1) = {"
-a
-O
-A
-A
-A
-k
-x
-k
-A
-e
-g
-k
-a
+wy
+aL
+NI
+eU
+si
+tK
+HI
+tK
+he
+Kd
+HK
+tK
+wy
 "}
 (12,1,1) = {"
-a
-k
-k
-k
-k
-a
-a
-a
-k
-k
-k
-k
-a
+wy
+ei
+tK
+tK
+tK
+fc
+fc
+wB
+tK
+tK
+tK
+ei
+wy
 "}
 (13,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+fc
+fc
+fc
+fc
+fc
+fc
+wB
+St
+EO
+Hr
+wB
+wy
 "}
 (14,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+fc
+fc
+fc
+fc
+fc
+fc
+wB
+gM
+Ig
+Ig
+Ut
+wy
 "}
 (15,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+fc
+fc
+fc
+fc
+fc
+fc
+wB
+xV
+Ig
+Hd
+wB
+wy
 "}
 (16,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+fc
+fc
+fc
+fc
+fc
+fc
+wB
+Hg
+Ig
+FR
+wB
+wy
 "}
 (17,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+fc
+fc
+fc
+fc
+fc
+fc
+aK
+Ig
+Ig
+FR
+wB
+wy
 "}
 (18,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+Gl
+wy
+wy
+wy
+wy
+wy
+wB
+wB
+wB
+wB
+Tm
+wy
 "}
 (19,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (20,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (21,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (22,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (23,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (24,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (25,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (26,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (27,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (28,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (29,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (30,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (31,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (32,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (33,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (34,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (35,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (36,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (37,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (38,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (39,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
 (40,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
+wy
 "}
