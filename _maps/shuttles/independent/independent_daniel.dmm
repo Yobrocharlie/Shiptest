@@ -1,0 +1,925 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"c" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"d" = (
+/obj/machinery/button/door{
+	name = "Engine Shutters";
+	dir = 4;
+	pixel_y = -7;
+	pixel_x = -23;
+	id = "kiloengine"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"e" = (
+/obj/machinery/portable_atmospherics/pump,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"g" = (
+/obj/machinery/power/ship_gravity,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"h" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"j" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"k" = (
+/turf/closed/wall/r_wall,
+/area/ship/engineering/engine)
+"m" = (
+/obj/machinery/power/smes/shuttle{
+	dir = 4
+	},
+/obj/machinery/door/window/westright{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "kiloengine";
+	name = "Engine Shutters";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"n" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"p" = (
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"q" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/closet/wall/orange/directional/east,
+/obj/item/stack/sheet/mineral/uranium/twenty,
+/obj/item/stack/sheet/mineral/plasma/ten,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"u" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/closet/wall/orange/directional/north,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/construction/rcd,
+/obj/item/storage/belt/utility,
+/obj/item/rcd_ammo/large,
+/obj/item/rcd_ammo/large,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"w" = (
+/obj/machinery/door/airlock/maintenance,
+/obj/machinery/door/firedoor/heavy,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"x" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/door/firedoor/heavy,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"z" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/closet/wall/orange/directional/south,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"A" = (
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"D" = (
+/obj/machinery/power/smes/shuttle{
+	dir = 4
+	},
+/obj/machinery/door/window/westright{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/window/reinforced/spawner,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "kiloengine";
+	name = "Engine Shutters";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"F" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "kiloengine";
+	name = "Engine Shutters";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/external)
+"H" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"I" = (
+/obj/machinery/button/door{
+	name = "Garage Control";
+	dir = 4;
+	pixel_y = -7;
+	pixel_x = -23;
+	id = "DanielGarage"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"J" = (
+/obj/machinery/power/smes,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"L" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"M" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/closet/wall/orange/directional/east,
+/obj/item/stack/sheet/mineral/uranium/twenty,
+/obj/item/stack/sheet/mineral/plasma/ten,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"N" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"O" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "DanielGarage"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Q" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"S" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"T" = (
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"V" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"W" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	piping_layer = 2
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"X" = (
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+"Z" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+k
+F
+F
+F
+F
+k
+F
+F
+F
+F
+k
+a
+"}
+(3,1,1) = {"
+a
+k
+m
+D
+m
+D
+k
+m
+D
+m
+D
+k
+a
+"}
+(4,1,1) = {"
+a
+k
+n
+n
+n
+n
+d
+n
+n
+n
+n
+k
+a
+"}
+(5,1,1) = {"
+a
+k
+u
+S
+j
+j
+h
+c
+c
+V
+z
+k
+a
+"}
+(6,1,1) = {"
+a
+k
+J
+Z
+A
+A
+H
+A
+A
+Q
+J
+k
+a
+"}
+(7,1,1) = {"
+a
+k
+J
+M
+p
+L
+H
+N
+T
+q
+J
+k
+a
+"}
+(8,1,1) = {"
+a
+k
+k
+k
+k
+k
+H
+k
+k
+k
+k
+k
+a
+"}
+(9,1,1) = {"
+a
+O
+I
+A
+A
+k
+H
+k
+W
+W
+X
+k
+a
+"}
+(10,1,1) = {"
+a
+O
+A
+A
+A
+w
+H
+w
+A
+A
+A
+k
+a
+"}
+(11,1,1) = {"
+a
+O
+A
+A
+A
+k
+x
+k
+A
+e
+g
+k
+a
+"}
+(12,1,1) = {"
+a
+k
+k
+k
+k
+a
+a
+a
+k
+k
+k
+k
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(15,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(16,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(17,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(18,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(19,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(20,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(21,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(22,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(23,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(24,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(25,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(26,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(27,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(28,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(29,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(30,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(31,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(32,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(33,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(34,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(35,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(36,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(37,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(38,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(39,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(40,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
