@@ -200,7 +200,6 @@
 /turf/open/floor/wood/birch,
 /area/ship/crew)
 "fn" = (
-/obj/machinery/door/firedoor/heavy,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -562,6 +561,19 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/carpet/red_gold,
 /area/ship/crew)
+"oa" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/closet/crate/secure/gear,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "og" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable{
@@ -631,6 +643,19 @@
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
+"ql" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/closet/crate/secure/weapon,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "qD" = (
 /turf/open/floor/mineral/titanium/white,
 /area/ship/crew)
@@ -966,7 +991,6 @@
 /area/ship/medical)
 "Dn" = (
 /obj/machinery/door/airlock/maintenance,
-/obj/machinery/door/firedoor/heavy,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -1586,9 +1610,6 @@
 /area/ship/security/armory)
 "Vs" = (
 /obj/structure/crate_shelf,
-/obj/structure/closet/crate/secure/weapon,
-/obj/structure/closet/crate/secure/weapon,
-/obj/structure/closet/crate/secure/gear,
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
@@ -1788,9 +1809,9 @@ KY
 KY
 KY
 jD
-KY
-KY
-KY
+oa
+ql
+ql
 ms
 BZ
 wy
