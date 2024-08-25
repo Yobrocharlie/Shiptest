@@ -828,7 +828,6 @@
 /turf/closed/wall/r_wall,
 /area/ship/medical)
 "yD" = (
-/obj/machinery/power/apc/auto_name/directional/south,
 /obj/machinery/power/terminal{
 	dir = 8
 	},
@@ -1229,7 +1228,8 @@
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
 /obj/machinery/door/poddoor/shutters{
-	id = "DanielBridge"
+	id = "DanielBridge";
+	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
@@ -2097,13 +2097,13 @@ wy
 wy
 wy
 Mf
-MG
+Mf
 da
 zG
 Ux
 RK
 nJ
-MG
+Mf
 Mf
 wy
 wy
