@@ -4987,7 +4987,7 @@
 /turf/open/floor/wood,
 /area/ship/bridge)
 "HA" = (
-/obj/structure/table/reinforced,
+/obj/docking_port/mobile,
 /obj/machinery/recharger,
 /obj/item/paper{
 	default_raw_text = "Reminder that passengers are NOT permitted to carry weapons on board.";
