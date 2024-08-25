@@ -861,7 +861,7 @@
 /obj/item/stock_parts/cell/gun/empty,
 /obj/item/stock_parts/cell/gun/empty,
 /obj/item/stock_parts/cell/gun/empty,
-/obj/item/gun/energy,
+/obj/item/gun/energy/e_gun,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "xV" = (
