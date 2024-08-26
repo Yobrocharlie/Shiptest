@@ -55,7 +55,6 @@
 /obj/effect/spawner/lootdrop/salvage/gold,
 /obj/effect/spawner/lootdrop/stockparts,
 /obj/item/circuitboard/machine/autolathe,
-/obj/item/storage/box/stockparts,
 /obj/item/stack/tile/carpet/royalblack/fifty,
 /obj/item/stack/tile/carpet/royalblue/fifty,
 /obj/item/stack/tile/carpet/purple/fifty,
@@ -64,6 +63,7 @@
 /obj/item/stack/tile/carpet/cyan/fifty,
 /obj/item/stack/tile/carpet/blue/fifty,
 /obj/item/stack/tile/carpet/black/fifty,
+/obj/item/storage/box/stockparts/t2,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "bk" = (
@@ -197,7 +197,7 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "eU" = (
-/obj/structure/guncase,
+/obj/structure/crate_shelf,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "fc" = (
@@ -966,6 +966,19 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/circuit,
 /area/ship/science/ai_chamber)
+"AO" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/closet/crate/secure/weapon,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "Bl" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood/birch,
@@ -1314,6 +1327,7 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
+/obj/structure/closet/crate/secure/gear,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Lg" = (
@@ -1567,6 +1581,9 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/item/stack/sheet/mineral/plasma/ten,
+/obj/item/stack/sheet/mineral/plasma/ten,
+/obj/item/stack/sheet/mineral/plasma/ten,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Ss" = (
@@ -1674,6 +1691,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/item/stack/sheet/mineral/plasma/ten,
+/obj/item/stack/sheet/mineral/plasma/ten,
+/obj/item/stack/sheet/mineral/plasma/ten,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Wd" = (
@@ -1852,8 +1872,8 @@ wy
 wy
 tK
 cW
-KY
-KY
+AO
+AO
 KY
 jD
 oa
