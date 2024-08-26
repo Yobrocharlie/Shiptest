@@ -5,6 +5,11 @@
 	},
 /obj/structure/bed/dogbed,
 /obj/machinery/light/dim/directional/south,
+/obj/structure/railing{
+	dir = 5;
+	layer = 4.1;
+	name = "Railing (my 12 gauge shotgun loaded with slugs) that stops the non stop evercoming horde of pure evil and dasterdlyness (girlscouts) from breaching my defences (my lawn) to stop them from giving me their profane weapons of heathen conversion (cookies)"
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "aC" = (
@@ -1381,7 +1386,7 @@
 	},
 /obj/structure/fans/tiny,
 /obj/docking_port/mobile{
-	dir = 2;
+	dir = 4;
 	name = "Daniel"
 	},
 /turf/open/floor/plating,
@@ -1759,9 +1764,6 @@
 "Zq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
-	},
-/obj/structure/railing{
-	name = "Railing (my 12 gauge shotgun loaded with slugs) that stops the non stop evercoming horde of pure evil and dasterdlyness (girlscouts) from breaching my defences (my lawn) to stop them from giving me their profane weapons of heathen conversion (cookies)"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
