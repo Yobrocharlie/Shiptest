@@ -577,6 +577,17 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/secure/gear,
+/obj/item/target,
+/obj/item/target,
+/obj/item/target/alien,
+/obj/item/target/alien,
+/obj/item/target/clown,
+/obj/item/target/clown,
+/obj/item/target/clown,
+/obj/item/target/syndicate,
+/obj/item/target/syndicate,
+/obj/item/target/syndicate,
+/obj/item/target/syndicate,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "og" = (
@@ -659,6 +670,20 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/secure/weapon,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/p16,
+/obj/item/ammo_box/magazine/m12g,
+/obj/item/ammo_box/magazine/m12g,
+/obj/item/ammo_box/magazine/m12g,
+/obj/item/ammo_box/magazine/m12g,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "qD" = (
@@ -676,6 +701,7 @@
 /obj/item/storage/firstaid/radiation,
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/brute,
+/obj/item/clothing/neck/stethoscope,
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
 "qQ" = (
@@ -966,13 +992,14 @@
 /area/ship/engineering/engine)
 "Cg" = (
 /obj/structure/closet/wall/red/directional/east,
-/obj/item/ammo_box/magazine/sniper_rounds,
-/obj/item/ammo_box/magazine/sniper_rounds,
-/obj/item/ammo_box/magazine/sniper_rounds,
-/obj/item/ammo_box/magazine/sniper_rounds,
-/obj/item/ammo_box/magazine/sniper_rounds,
 /obj/item/gun_voucher/syndicate,
 /obj/item/gun_voucher/syndicate,
+/obj/item/clothing/suit/armor/vest/marine,
+/obj/item/clothing/suit/armor/vest/marine,
+/obj/item/clothing/head/helmet/marine,
+/obj/item/clothing/head/helmet/marine,
+/obj/item/clothing/suit/armor/vest/marine/heavy,
+/obj/item/clothing/head/helmet/marine/security,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Ch" = (
@@ -1453,6 +1480,25 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/circuit,
 /area/ship/science/ai_chamber)
+"Re" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/ammo_box/magazine/sniper_rounds,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "Ri" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -1609,7 +1655,10 @@
 "US" = (
 /obj/machinery/vending/security/marine/syndicate{
 	icon_deny = "marine-deny";
-	icon_state = "marine"
+	icon_state = "marine";
+	icon_vend = "null";
+	light_mask = "marine-mask";
+	voucher_items = list("P-16" = /obj/item/gun/ballistic/automatic/assault/p16, "sniper rifle" = /obj/item/gun/ballistic/automatic/sniper_rifle, "C-20r SMG" = /obj/item/gun/ballistic/automatic/smg/c20r, "Bulldog Shotgun" = /obj/item/gun/ballistic/shotgun/bulldog)
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
@@ -1812,7 +1861,7 @@ KY
 KY
 jD
 oa
-ql
+Re
 ql
 ms
 BZ
