@@ -551,7 +551,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "nJ" = (
-/obj/machinery/computer/cargo{
+/obj/machinery/computer/cargo/express{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -1386,8 +1386,8 @@
 	},
 /obj/structure/fans/tiny,
 /obj/docking_port/mobile{
-	dir = 4;
-	name = "Daniel"
+	name = "Daniel";
+	dir = 2
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
