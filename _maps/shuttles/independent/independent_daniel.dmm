@@ -54,7 +54,6 @@
 /obj/effect/spawner/lootdrop/ration,
 /obj/effect/spawner/lootdrop/salvage/gold,
 /obj/effect/spawner/lootdrop/stockparts,
-/obj/item/a_gift/anything,
 /obj/item/circuitboard/machine/autolathe,
 /obj/item/storage/box/stockparts,
 /obj/item/stack/tile/carpet/royalblack/fifty,
@@ -791,7 +790,6 @@
 	name = "secret blueprints"
 	},
 /obj/item/aicard,
-/obj/item/organ/zombie_infection,
 /obj/item/stock_parts/cell/high/slime/hypercharged{
 	icon_state = "sheet-gold";
 	icon = 'icons/obj/stack_objects.dmi';
@@ -995,8 +993,6 @@
 /obj/item/gun_voucher/syndicate,
 /obj/item/gun_voucher/syndicate,
 /obj/item/clothing/suit/armor/vest/marine,
-/obj/item/clothing/suit/armor/vest/marine,
-/obj/item/clothing/head/helmet/marine,
 /obj/item/clothing/head/helmet/marine,
 /obj/item/clothing/suit/armor/vest/marine/heavy,
 /obj/item/clothing/head/helmet/marine/security,
