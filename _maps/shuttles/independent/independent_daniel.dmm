@@ -212,6 +212,12 @@
 /obj/item/storage/bag/ore,
 /turf/open/floor/plating,
 /area/ship/cargo)
+"eM" = (
+/obj/machinery/light_switch{
+	pixel_y = -24
+	},
+/turf/open/floor/hangar/plasteel/white,
+/area/ship/medical)
 "eN" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "DanielGarage"
@@ -290,7 +296,6 @@
 /turf/open/floor/carpet/lone,
 /area/ship/crew)
 "gd" = (
-/obj/machinery/door/airlock/medical/glass,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -300,7 +305,10 @@
 	dir = 1
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/open/floor/hangar/plasteel/white,
+/obj/machinery/door/airlock{
+	name = "Dormitory"
+	},
+/turf/open/floor/carpet/red_gold,
 /area/ship/crew/dorm)
 "ge" = (
 /obj/machinery/power/smes,
@@ -325,6 +333,26 @@
 	name = "Saga Bootup Procedure"
 	},
 /obj/item/mmi/posibrain,
+/obj/item/bodypart/leg/right/robot,
+/obj/item/bodypart/leg/right/robot,
+/obj/item/bodypart/r_arm/robot,
+/obj/item/bodypart/r_arm/robot,
+/obj/item/bodypart/leg/left/robot,
+/obj/item/bodypart/leg/left/robot,
+/obj/item/bodypart/l_arm/robot,
+/obj/item/bodypart/l_arm/robot,
+/obj/item/bodypart/head/robot,
+/obj/item/bodypart/head/robot,
+/obj/item/bodypart/chest/robot,
+/obj/item/bodypart/chest/robot,
+/obj/item/robot_suit,
+/obj/item/robot_suit,
+/obj/item/borg/upgrade/ai,
+/obj/item/borg/upgrade/ai,
+/obj/item/assembly/flash/handheld,
+/obj/item/assembly/flash/handheld,
+/obj/item/assembly/flash/handheld,
+/obj/item/assembly/flash/handheld,
 /turf/open/floor/circuit,
 /area/ship/science/ai_chamber)
 "gR" = (
@@ -335,7 +363,6 @@
 "gY" = (
 /obj/structure/closet/secure_closet/captains,
 /obj/item/pinpointer/crew,
-/obj/item/borg/upgrade/pinpointer,
 /obj/item/gps,
 /obj/item/gps,
 /obj/item/gps,
@@ -362,6 +389,11 @@
 /obj/item/stack/sheet/rglass,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
+"hV" = (
+/obj/structure/closet/crate/secure/plasma,
+/obj/item/stack/sheet/cardboard/fifty,
+/turf/open/floor/plating,
+/area/ship/cargo)
 "hW" = (
 /obj/machinery/light_switch{
 	pixel_y = 24
@@ -884,18 +916,18 @@
 /turf/open/floor/wood/birch,
 /area/ship/crew)
 "si" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/implant/radio,
-/obj/item/implant/radio,
-/obj/item/implant/radio,
-/obj/item/implant/radio,
-/obj/item/implant/radio,
-/obj/item/implant/radio,
-/obj/item/implant/radio,
-/obj/item/implant/radio,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/closet/wall/directional/west,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
 /turf/open/floor/carpet/red_gold,
 /area/ship/crew)
 "sx" = (
@@ -928,6 +960,9 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/auto_name/directional/west,
+/obj/machinery/light_switch{
+	pixel_y = -24
+	},
 /turf/open/floor/plating,
 /area/ship/cargo)
 "th" = (
@@ -938,9 +973,9 @@
 /turf/open/floor/circuit,
 /area/ship/science/ai_chamber)
 "tj" = (
-/obj/structure/salvageable/computer,
 /obj/machinery/firealarm/directional/east,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "tK" = (
@@ -954,6 +989,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "ui" = (
@@ -965,6 +1003,14 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
+"uA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/light_switch{
+	pixel_x = -25
+	},
+/turf/open/floor/plating,
+/area/ship/cargo)
 "uV" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -1150,12 +1196,7 @@
 /obj/structure/filingcabinet/double/grey,
 /turf/open/floor/concrete/tiles,
 /area/ship/engineering/engine)
-"Bl" = (
-/obj/machinery/porta_turret/ai,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security/armory)
 "Bo" = (
-/obj/structure/salvageable/server,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light_switch{
 	pixel_y = -24
@@ -1194,6 +1235,7 @@
 /obj/effect/turf_decal/corner/opaque/white/diagonal,
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/southright,
+/obj/item/reagent_containers/glass/rag,
 /turf/open/floor/plasteel,
 /area/ship/crew/library)
 "BV" = (
@@ -1243,11 +1285,12 @@
 /obj/item/stack/tile/carpet/black/fifty,
 /obj/item/storage/box/stockparts/t2,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/part_replacer/bluespace,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "Cv" = (
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/ert/engi,
+/obj/item/clothing/suit/space/hardsuit/engine/elite,
 /turf/open/floor/concrete/tiles,
 /area/ship/engineering/engine)
 "CO" = (
@@ -1540,7 +1583,6 @@
 /area/ship/cargo)
 "Jt" = (
 /obj/machinery/light/dim/directional/east,
-/obj/machinery/porta_turret/ai,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "JA" = (
@@ -1676,7 +1718,7 @@
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
 /obj/machinery/door/poddoor/shutters{
-	id = "Cannon";
+	id = "DanielBridge";
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -1687,7 +1729,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "0-2"
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
@@ -1767,6 +1809,20 @@
 /obj/structure/closet/crate/secure/plasma,
 /turf/open/floor/plating,
 /area/ship/cargo)
+"Ph" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_x = 3
+	},
+/obj/machinery/recharger{
+	pixel_y = 9;
+	pixel_x = -9
+	},
+/obj/machinery/recharger{
+	pixel_x = -9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security/armory)
 "Pq" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2008,7 +2064,6 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "TX" = (
-/obj/structure/salvageable/circuit_imprinter,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -2025,6 +2080,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/birch,
 /area/ship/crew)
+"Ud" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light_switch{
+	pixel_x = 29
+	},
+/turf/open/floor/hangar/plasteel/white,
+/area/ship/medical)
 "Un" = (
 /obj/structure/closet/crate/radiation,
 /obj/item/storage/firstaid/radiation,
@@ -2102,12 +2166,22 @@
 "Vd" = (
 /obj/item/gun_voucher/syndicate,
 /obj/item/gun_voucher/syndicate,
-/obj/item/clothing/suit/armor/vest/marine,
-/obj/item/clothing/head/helmet/marine,
-/obj/item/clothing/suit/armor/vest/marine/heavy,
-/obj/item/clothing/head/helmet/marine/security,
+/obj/item/clothing/suit/armor/vest/marine{
+	slowdown = 0
+	},
+/obj/item/clothing/head/helmet/marine{
+	slowdown = 0
+	},
+/obj/item/clothing/suit/armor/vest/marine/heavy{
+	slowdown = 0
+	},
+/obj/item/clothing/head/helmet/marine/security{
+	slowdown = 0
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/wall/red/directional/west,
+/obj/item/clothing/under/rank/security/officer/military,
+/obj/item/clothing/under/rank/security/officer/military,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Ve" = (
@@ -2212,7 +2286,6 @@
 /area/ship/external)
 "WP" = (
 /obj/structure/grille/broken,
-/obj/structure/salvageable/autolathe,
 /obj/effect/decal/cleanable/sprayweb,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
@@ -2523,7 +2596,7 @@ Jp
 jI
 Jd
 Je
-Je
+uA
 Je
 sX
 zW
@@ -2565,7 +2638,7 @@ wy
 eN
 Xx
 IN
-OT
+hV
 OT
 YW
 kZ
@@ -2643,7 +2716,7 @@ St
 EO
 Hr
 Ut
-eU
+Ph
 xM
 Xm
 wB
@@ -2751,7 +2824,7 @@ YE
 wB
 BA
 xM
-Bl
+Tm
 wB
 xM
 xm
@@ -2763,7 +2836,7 @@ wy
 Wn
 pp
 Ve
-Ve
+eM
 Gl
 Gl
 Gl
@@ -2784,7 +2857,7 @@ wB
 wy
 Wn
 KF
-bc
+Ud
 bc
 Ed
 si
