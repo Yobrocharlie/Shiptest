@@ -41,7 +41,7 @@
 /area/ship/engineering/engine)
 "bc" = (
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "2-8"
 	},
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
@@ -86,6 +86,9 @@
 /area/ship/maintenance/central)
 "ch" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
 "cE" = (
@@ -212,6 +215,9 @@
 "eM" = (
 /obj/machinery/light_switch{
 	pixel_y = -24
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
@@ -736,6 +742,12 @@
 	},
 /turf/open/floor/circuit,
 /area/ship/science/ai_chamber)
+"oJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/hangar/plasteel/white,
+/area/ship/medical)
 "oW" = (
 /obj/item/multitool,
 /obj/item/clothing/glasses/meson/engine/tray,
@@ -773,6 +785,13 @@
 	},
 /turf/open/floor/carpet/lone,
 /area/ship/crew)
+"py" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/hangar/plasteel/white,
+/area/ship/medical)
 "pB" = (
 /turf/closed/wall/r_wall,
 /area/ship/cargo)
@@ -1066,6 +1085,9 @@
 /area/ship/security/armory)
 "wH" = (
 /obj/machinery/firealarm/directional/south,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
 "xm" = (
@@ -1374,6 +1396,9 @@
 /area/ship/science/ai_chamber)
 "EA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
 "EO" = (
@@ -1636,10 +1661,6 @@
 /turf/open/floor/carpet/red_gold,
 /area/ship/crew/dorm)
 "KF" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/auto_name/directional/north,
 /obj/machinery/chem_master,
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
@@ -1831,6 +1852,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/birch,
 /area/ship/crew)
+"Pr" = (
+/obj/structure/curtain,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/hangar/plasteel/white,
+/area/ship/medical)
 "PF" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -2079,9 +2107,6 @@
 /turf/open/floor/wood/birch,
 /area/ship/crew)
 "Ud" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/light_switch{
 	pixel_x = 29
 	},
@@ -2681,7 +2706,7 @@ wy
 Wn
 qw
 Ve
-Ve
+py
 Gl
 PJ
 HP
@@ -2703,7 +2728,7 @@ wy
 Wn
 sa
 dp
-Ve
+oJ
 Gl
 xo
 XZ
@@ -2725,7 +2750,7 @@ wy
 Wn
 Sd
 Ve
-Ve
+oJ
 Gl
 fU
 vg
@@ -2769,7 +2794,7 @@ wy
 Wn
 Tu
 Ch
-Ch
+Pr
 Fu
 Gl
 pq
