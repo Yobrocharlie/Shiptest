@@ -353,6 +353,8 @@
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
 /turf/open/floor/circuit,
 /area/ship/science/ai_chamber)
 "gR" = (
@@ -361,7 +363,6 @@
 /turf/open/floor/wood/birch,
 /area/ship/crew)
 "gY" = (
-/obj/structure/closet/secure_closet/captains,
 /obj/item/pinpointer/crew,
 /obj/item/gps,
 /obj/item/gps,
@@ -377,6 +378,11 @@
 /obj/item/card/bank,
 /obj/item/card/bank,
 /obj/item/card/bank,
+/obj/structure/closet,
+/obj/item/gun/energy/e_gun,
+/obj/item/stock_parts/cell/gun/empty,
+/obj/item/stock_parts/cell/gun/empty,
+/obj/item/stock_parts/cell/gun/empty,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "he" = (
@@ -507,11 +513,11 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "jE" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
@@ -542,9 +548,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "kc" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -726,10 +729,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "op" = (
-/obj/item/stock_parts/cell/gun/empty,
-/obj/item/stock_parts/cell/gun/empty,
-/obj/item/stock_parts/cell/gun/empty,
-/obj/item/gun/energy/e_gun,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/wall/red/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
@@ -820,10 +819,6 @@
 /obj/item/ammo_box/magazine/p16,
 /obj/item/ammo_box/magazine/p16,
 /obj/item/ammo_box/magazine/p16,
-/obj/item/ammo_box/magazine/m12g,
-/obj/item/ammo_box/magazine/m12g,
-/obj/item/ammo_box/magazine/m12g,
-/obj/item/ammo_box/magazine/m12g,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "qw" = (
@@ -1073,9 +1068,9 @@
 /turf/closed/wall/r_wall,
 /area/ship/security/armory)
 "wH" = (
-/obj/structure/closet/secure_closet/engineering_chief,
-/turf/open/floor/concrete/tiles,
-/area/ship/engineering/engine)
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/hangar/plasteel/white,
+/area/ship/medical)
 "xm" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/window/reinforced/spawner/west,
@@ -1165,6 +1160,7 @@
 /area/ship/engineering/engine)
 "Ai" = (
 /obj/machinery/chem_heater,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
 "AL" = (
@@ -1211,7 +1207,6 @@
 	pixel_x = -23;
 	id = "DanielGarage"
 	},
-/obj/machinery/vending/mining_equipment,
 /turf/open/floor/plating,
 /area/ship/cargo)
 "Bz" = (
@@ -1286,11 +1281,12 @@
 /obj/item/storage/box/stockparts/t2,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/storage/part_replacer/bluespace,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
 "Cv" = (
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/engine/elite,
+/obj/item/clothing/suit/space/hardsuit/engine,
 /turf/open/floor/concrete/tiles,
 /area/ship/engineering/engine)
 "CO" = (
@@ -1518,7 +1514,8 @@
 "It" = (
 /obj/machinery/light/dim/directional/south,
 /obj/machinery/power/emitter/energycannon{
-	dir = 4
+	dir = 4;
+	active = 0
 	},
 /obj/structure/cable{
 	icon_state = "0-1"
@@ -1807,6 +1804,7 @@
 /area/ship/cargo)
 "OT" = (
 /obj/structure/closet/crate/secure/plasma,
+/obj/effect/spawner/lootdrop/maintenance/six,
 /turf/open/floor/plating,
 /area/ship/cargo)
 "Ph" = (
@@ -1972,6 +1970,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
+"Sd" = (
+/obj/machinery/stasis,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/hangar/plasteel/white,
+/area/ship/medical)
 "So" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -2025,9 +2028,6 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "SH" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 6
-	},
 /obj/machinery/airalarm/directional/west,
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plating,
@@ -2087,6 +2087,7 @@
 /obj/machinery/light_switch{
 	pixel_x = 29
 	},
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/hangar/plasteel/white,
 /area/ship/medical)
 "Un" = (
@@ -2182,6 +2183,7 @@
 /obj/structure/closet/wall/red/directional/west,
 /obj/item/clothing/under/rank/security/officer/military,
 /obj/item/clothing/under/rank/security/officer/military,
+/obj/item/gun_voucher/syndicate,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Ve" = (
@@ -2192,7 +2194,8 @@
 	dir = 1
 	},
 /obj/machinery/power/emitter/energycannon{
-	dir = 4
+	dir = 4;
+	active = 0
 	},
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/cable{
@@ -2327,7 +2330,6 @@
 	desc = "An immensely old but still widely popular design which has since been ripped off many times by a few cheap individuals, there is markings on the side showing it was made by John Browning.";
 	projectile_damage_multiplier = 1.5
 	},
-/obj/item/slimepotion/lovepotion,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ship/maintenance/central)
@@ -2339,8 +2341,6 @@
 "Xx" = (
 /obj/structure/closet/crate/eva,
 /obj/effect/spawner/lootdrop/maintenance/four,
-/obj/effect/spawner/lootdrop/maintenance/six,
-/obj/effect/spawner/lootdrop/maintenance/six,
 /turf/open/floor/plating,
 /area/ship/cargo)
 "XO" = (
@@ -2411,6 +2411,7 @@
 /area/ship/bridge)
 "YW" = (
 /obj/structure/closet/crate/secure/exo,
+/obj/effect/spawner/lootdrop/maintenance/six,
 /turf/open/floor/plating,
 /area/ship/cargo)
 "Zq" = (
@@ -2606,7 +2607,7 @@ yR
 SH
 ba
 tK
-wH
+Nn
 Nn
 Un
 tK
@@ -2724,7 +2725,7 @@ wB
 (14,1,1) = {"
 wy
 Wn
-qw
+Sd
 Ve
 Ve
 Gl
@@ -2748,7 +2749,7 @@ wy
 Wn
 sa
 dp
-Ve
+wH
 Gl
 Kd
 XY
