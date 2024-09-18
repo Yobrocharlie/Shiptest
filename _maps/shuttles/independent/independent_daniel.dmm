@@ -1231,6 +1231,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/southright,
 /obj/item/reagent_containers/glass/rag,
+/obj/item/reagent_containers/food/drinks/waterbottle/large/empty,
 /turf/open/floor/plasteel,
 /area/ship/crew/library)
 "BV" = (
